@@ -1,0 +1,4 @@
+<div *ngIf="jwtAuthenticationService.isUserLoggedIn()">
+    <!-- <button (click)="logout()">Logout</button> -->
+    <a routerLink="/login" routerLinkActive="active" class="dropdown-item" href="#">Sign Out</a>
+</div>
